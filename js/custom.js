@@ -71,9 +71,11 @@ var i = 0,
 // Typerwrite text content. Use a pipe to indicate the start of the second line "|".  
 var textArray = [
   "",
-  "Desarrollo.",
-  "Redacción.",
-  "Fotografía.",
+  "Full Stack Developer",
+  ".Net Core",
+  "Angular",
+  "React",
+  "SQL",
   "¡Trabajemos juntos!"
 ];
 
@@ -253,3 +255,9 @@ function typeWriter(id, ar) {
 
     });
 });
+
+function navFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") { x.className += " responsive "; } 
+    else { x.className = "topnav"; }
+    }
